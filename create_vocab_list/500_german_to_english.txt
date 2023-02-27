@@ -1,0 +1,2926 @@
+1. ich
+
+• I 
+• me
+
+2. sie
+
+• they 
+• she 
+• them 
+• her
+
+3. das
+
+• the 
+• that 
+• this 
+• it
+
+4. ist
+
+• be
+
+5. du
+
+• you
+
+6. nicht
+
+• not 
+• no
+
+7. die
+
+• the 
+• which 
+• that 
+• who
+
+8. und
+
+• and
+
+9. es
+
+• it
+
+10. der
+
+• the 
+• which
+
+11. was
+
+• what 
+• which 
+• something
+
+12. wir
+
+• we 
+• us
+
+13. er
+
+• he
+
+14. zu
+
+• to 
+• for 
+• at 
+• in 
+• with 
+• into 
+• as 
+• on 
+• too
+
+15. ein
+
+• a 
+• an 
+• one 
+• on
+
+16. mit
+
+• with 
+• by 
+• at 
+• in 
+• including
+
+17. mir
+
+• me 
+• to me 
+• myself
+
+18. den
+
+• the 
+• which
+
+19. wie
+
+• as 
+• such as 
+• like 
+• how
+
+20. ja
+
+• yes 
+• yea
+
+21. auf
+
+• on 
+• to 
+• in 
+• at 
+• onto 
+• upon 
+• up
+
+22. mich
+
+• me 
+• myself
+
+23. eine
+
+• a 
+• an 
+• one
+
+24. aber
+
+• but 
+• however
+
+25. hier
+
+• here
+
+26. sind
+
+• be
+
+27. für
+
+• for
+
+28. von
+
+• of 
+• from 
+• by 
+• out of 
+• about
+
+29. haben
+
+• have
+
+30. hat
+
+• have
+
+31. dich
+
+• you 
+• yourself
+
+32. war
+
+• be
+
+33. dass
+
+• that
+
+34. wenn
+
+• if 
+• when 
+• once
+
+35. an
+
+• to 
+• at 
+• on 
+• by 
+• against
+
+36. da
+
+• since 
+• as 
+• because 
+• there 
+• here 
+• then 
+• so
+
+37. nein
+
+• no
+
+38. bin
+
+• be
+
+39. noch
+
+• yet 
+• still 
+• more 
+• nor
+
+40. dir
+
+• you 
+• to you 
+• yourself
+
+41. nur
+
+• solely 
+• just 
+• merely 
+• simply 
+• only
+
+42. habe
+
+• possessions 
+• belongings
+
+43. ihr
+
+• her 
+• their 
+• you 
+• to her
+
+44. sich
+
+• yourself 
+• itself 
+• themselves 
+• oneself 
+• himself 
+• herself
+
+45. einen
+
+• a
+
+46. uns
+
+• us 
+• to us 
+• ourselves
+
+47. hast
+
+• haste
+
+48. dem
+
+• the
+
+49. ihn
+
+• him 
+• it
+
+50. aus
+
+• from 
+• of 
+• out of 
+• off 
+• out
+
+51. kann
+
+• can 
+• be able
+
+52. gut
+
+• well 
+• good 
+• fine 
+• nice
+
+53. auch
+
+• also 
+• too 
+• as well 
+• even
+
+54. schon
+
+• already 
+• yet
+
+55. jetzt
+
+• now
+
+56. im
+
+• in the
+
+57. sein
+
+• be 
+• his 
+• its
+
+58. mal
+
+• times 
+• once
+
+59. dann
+
+• then
+
+60. meine
+
+• my 
+• mine
+
+61. als
+
+• as 
+• than 
+• when
+
+62. um
+
+• by 
+• for 
+• around 
+• at 
+• about 
+• in order
+
+63. mein
+
+• my
+
+64. doch
+
+• nevertheless 
+• though 
+• after all 
+• but 
+• yet 
+• however
+
+65. bist
+
+• be
+
+66. wird
+
+• shall
+
+67. keine
+
+• no
+
+68. nach
+
+• to 
+• according to 
+• after 
+• by 
+• for 
+• in accordance with
+
+69. alles
+
+• everything 
+• all
+
+70. man
+
+• you 
+• one 
+• they
+
+71. Ich
+
+• I
+
+72. oder
+
+• or
+
+73. nichts
+
+• nothing 
+• not
+
+74. wo
+
+• where 
+• when
+
+75. werden
+
+• will 
+• become
+
+76. weiß
+
+• white
+
+77. will
+
+• want
+
+78. geht
+
+• go 
+• move 
+• walk 
+• leave
+
+79. mehr
+
+• more
+
+80. warum
+
+• why
+
+81. ihnen
+
+• them 
+• you 
+• to them 
+• to you
+
+82. bitte
+
+• request
+
+83. etwas
+
+• something 
+• anything 
+• any 
+• some 
+• somewhat 
+• slightly 
+• a little 
+• a bit 
+• rather
+
+84. bei
+
+• at 
+• in 
+• with 
+• during 
+• by 
+• upon 
+• near 
+• among
+
+85. muss
+
+• must
+
+86. los
+
+• off 
+• loose
+
+87. immer
+
+• always 
+• forever
+
+88. vor
+
+• before 
+• in front of 
+• against 
+• outside 
+• ahead of 
+• ago
+
+89. mann
+
+• man 
+• male 
+• husband
+
+90. zum
+
+• to the
+
+91. wieder
+
+• again
+
+92. sehr
+
+• very 
+• highly 
+• much 
+• very much 
+• greatly 
+• so
+
+93. sehen
+
+• see 
+• view 
+• look at 
+• look 
+• watch
+
+94. sagen
+
+• say 
+• tell 
+• speak
+
+95. also
+
+• hence 
+• that is 
+• so 
+• thus
+
+96. gehen
+
+• go 
+• move 
+• walk 
+• leave
+
+97. wer
+
+• who 
+• anyone
+
+98. alle
+
+• any 
+• all 
+• everyone
+
+99. denn
+
+• because 
+• for 
+• than
+
+100. machen
+
+• make 
+• do 
+• render
+
+101. ihm
+
+• him
+
+102. können
+
+• can 
+• be able 
+• may
+
+103. diese
+
+• this 
+• these
+
+104. komm
+
+• come 
+• get 
+• arrive 
+• occur 
+• go 
+• reach 
+• come out
+
+105. danke
+
+• Thank you! 
+• Thanks!
+
+106. euch
+
+• you 
+• to you 
+• yourselves
+
+107. einem
+
+• a
+
+108. tun
+
+• do 
+• act
+
+109. einer
+
+• one
+
+110. gibt
+
+• give 
+• pass 
+• hand 
+• put
+
+111. nie
+
+• never
+
+112. über
+
+• by 
+• about 
+• over 
+• via 
+• above 
+• across 
+• for 
+• beyond
+
+113. des
+
+• of
+
+114. soll
+
+• shall
+
+115. kein
+
+• no 
+• not a
+
+116. vielleicht
+
+• perhaps 
+• maybe 
+• possibly
+
+117. weg
+
+• away 
+• off 
+• gone
+
+118. deine
+
+• your 
+• yours
+
+119. wissen
+
+• know 
+• realize
+
+120. am
+
+• at the 
+• on the 
+• in the
+
+121. werde
+
+• will 
+• become
+
+122. leben
+
+• live
+
+123. kommen
+
+• come 
+• get 
+• arrive 
+• occur 
+• go 
+• reach 
+• come out
+
+124. kommt
+
+• come 
+• get 
+• arrive 
+• occur 
+• go 
+• reach 
+• come out
+
+125. müssen
+
+• must 
+• need 
+• have to
+
+126. viel
+
+• much 
+• a great deal 
+• a great deal of 
+• a lot 
+• a lot of 
+• plenty of 
+• lots of 
+• many
+
+127. wirklich
+
+• really 
+• truly 
+• genuinely 
+• indeed 
+• real 
+• true
+
+128. frau
+
+• woman 
+• female 
+• wife 
+• lady 
+• Mrs.
+
+129. hatte
+
+• have
+
+130. heute
+
+• today 
+• now 
+• nowadays
+
+131. willst
+
+• want
+
+132. dein
+
+• your 
+• thy
+
+133. würde
+
+• would
+
+134. tut
+
+• do 
+• act
+
+135. ihre
+
+• their 
+• her
+
+136. ganz
+
+• quite 
+• all 
+• completely 
+• entirely 
+• wholly 
+• really 
+• full 
+• entire 
+• whole 
+• all of
+
+137. zeit
+
+• time 
+• period 
+• age
+
+138. bis
+
+• to 
+• up to 
+• by 
+• until 
+• till
+
+139. wollen
+
+• want 
+• wish 
+• like 
+• will 
+• intend
+
+140. einfach
+
+• simply 
+• just 
+• simple 
+• straightforward
+
+141. macht
+
+• power 
+• force 
+• strength 
+• might
+
+142. gott
+
+• god
+
+143. zurück
+
+• back 
+• behind
+
+144. nun
+
+• now 
+• then 
+• well
+
+145. weil
+
+• because 
+• since
+
+146. damit
+
+• so 
+• so that 
+• thereby 
+• therewith 
+• with it
+
+147. dieser
+
+• this
+
+148. kannst
+
+• can 
+• be able
+
+149. wurde
+
+• has been
+
+150. gesagt
+
+• serrated
+
+151. wäre
+
+• be
+
+152. seine
+
+• his 
+• its
+
+153. wollte
+
+• wanted
+
+154. na
+
+• Well!
+
+155. zwei
+
+• two
+
+156. hallo
+
+• Hello
+
+157. meinen
+
+• think 
+• mean 
+• believe 
+• say
+
+158. sicher
+
+• safe 
+• secure 
+• certain 
+• proof 
+• assured 
+• confident 
+• reliable 
+• safely 
+• certainly
+
+159. weißt
+
+• know
+
+160. morgen
+
+• tomorrow
+
+161. ab
+
+• from 
+• as of 
+• off 
+• away
+
+162. leid
+
+• sorrow 
+• grief 
+• pain 
+• harm 
+• agony
+
+163. lassen
+
+• let 
+• leave 
+• allow
+
+164. waren
+
+• goods 
+• merchandise 
+• wares
+
+165. zur
+
+• to
+
+166. lass
+
+• let 
+• leave 
+• allow
+
+167. geld
+
+• money
+
+168. liebe
+
+• dear
+
+169. tag
+
+• day
+
+170. leute
+
+• people 
+• folks 
+• folk
+
+171. vater
+
+• father
+
+172. genau
+
+• exactly 
+• precisely 
+• accurately 
+• closely 
+• right 
+• very 
+• strictly 
+• exact 
+• accurate 
+• precise
+
+173. sagte
+
+• say 
+• tell 
+• speak
+
+174. hätte
+
+• have
+
+175. mach
+
+• make 
+• do 
+• render
+
+176. raus
+
+• out
+
+177. durch
+
+• by 
+• through 
+• due to 
+• by means of 
+• via
+
+178. könnte
+
+• could 
+• might
+
+179. schön
+
+• beautiful 
+• nice 
+• lovely 
+• fine 
+• handsome 
+• beautifully 
+• nicely 
+• good 
+• well
+
+180. wohl
+
+• well 
+• probably 
+• perhaps 
+• arguably 
+• surely 
+• no doubt
+
+181. gesehen
+
+• see 
+• view 
+• look at 
+• look 
+• watch
+
+182. keinen
+
+• no
+
+183. klar
+
+• clear 
+• plain 
+• understood 
+• transparent 
+• clearly 
+• sure
+
+184. glaube
+
+• faith 
+• religion 
+• belief
+
+185. her
+
+• here
+
+186. okay
+
+• OK! 
+• Okay!
+
+187. mutter
+
+• mother 
+• mama
+
+188. sag
+
+• say 
+• tell 
+• speak
+
+189. dieses
+
+• this
+
+190. nacht
+
+• night
+
+191. besser
+
+• superior 
+• better 
+• preferably
+
+192. ohne
+
+• without 
+• excluding
+
+193. unsere
+
+• our
+
+194. jemand
+
+• someone 
+• anyone 
+• somebody 
+• anybody
+
+195. sei
+
+• be
+
+196. reden
+
+• talk 
+• speak
+
+197. gerade
+
+• just 
+• right 
+• now 
+• straight 
+• even
+
+198. ob
+
+• whether 
+• if
+
+199. gehört
+
+• belong
+
+200. möchte
+
+• would like 
+• might
+
+201. dort
+
+• there 
+• therein
+
+202. sagt
+
+• say 
+• tell 
+• speak
+
+203. anderen
+
+• other
+
+204. gemacht
+
+• made
+
+205. hör
+
+• listen
+
+206. sollte
+
+• should
+
+207. selbst
+
+• self 
+• itself 
+• themselves 
+• himself 
+• yourself 
+• herself 
+• myself 
+• ourselves 
+• even
+
+208. diesen
+
+• these
+
+209. gute
+
+• quality 
+• kindness
+
+210. dachte
+
+• think 
+• believe 
+• conceive 
+• feel
+
+211. paar
+
+• pair
+
+212. weiter
+
+• other 
+• further 
+• farther 
+• more 
+• on 
+• forth
+
+213. vom
+
+• from
+
+214. ins
+
+• in the
+
+215. herr
+
+• Lord 
+• gentleman 
+• master 
+• mister 
+• sir 
+• Mr.
+
+216. wirst
+
+• will 
+• become
+
+217. geben
+
+• give 
+• pass 
+• hand 
+• put
+
+218. ordnung
+
+• order 
+• ordering 
+• rules 
+• organization
+
+219. passiert
+
+• happen 
+• pass
+
+220. meiner
+
+• mine
+
+221. lange
+
+• long 
+• a long time
+
+222. gar
+
+• at all 
+• really 
+• quite
+
+223. mädchen
+
+• girl 
+• maiden 
+• female
+
+224. meinem
+
+• my
+
+225. hören
+
+• hear 
+• listen 
+• listen to
+
+226. sieht
+
+• see 
+• view 
+• look at 
+• look 
+• watch
+
+227. daß
+
+• that
+
+228. guten
+
+• good 
+• fine 
+• nice
+
+229. hin
+
+• down
+
+230. gleich
+
+• equal 
+• same 
+• identical 
+• equivalent 
+• similar 
+• the same 
+• equally 
+• right 
+• immediately 
+• just
+
+231. ach
+
+• Oh! 
+• Ah! 
+• Alas!
+
+232. diesem
+
+• this
+
+233. freund
+
+• friend 
+• boyfriend
+
+234. seit
+
+• since 
+• for 
+• from
+
+235. welt
+
+• world
+
+236. musst
+
+• need 
+• have to
+
+237. hause
+
+• home
+
+238. natürlich
+
+• of course 
+• naturally 
+• certainly 
+• natural
+
+239. abend
+
+• evening 
+• eve 
+• night
+
+240. angst
+
+• fear 
+• anxiety 
+• worry 
+• dread
+
+241. drei
+
+• three
+
+242. recht
+
+• right 
+• quite 
+• pretty 
+• fairly 
+• really
+
+243. richtig
+
+• correctly 
+• properly 
+• rightly 
+• right 
+• proper 
+• correct 
+• accurate
+
+244. viele
+
+• many 
+• a lot 
+• a lot of 
+• lots of
+
+245. deinen
+
+• your
+
+246. finden
+
+• find
+
+247. wieso
+
+• why
+
+248. bleiben
+
+• remain 
+• stay 
+• keep 
+• be left
+
+249. tot
+
+• dead
+
+250. unter
+
+• under 
+• among 
+• below 
+• beneath 
+• amongst 
+• underneath
+
+251. junge
+
+• boy 
+• kid 
+• lad 
+• guy
+
+252. haus
+
+• house 
+• home 
+• building
+
+253. rein
+
+• purely 
+• pure 
+• clean 
+• clear 
+• mere
+
+254. essen
+
+• eat 
+• dine
+
+255. davon
+
+• thereof 
+• of it 
+• away 
+• of that
+
+256. nehmen
+
+• take 
+• adopt 
+• take on 
+• use
+
+257. sollen
+
+• must
+
+258. helfen
+
+• help 
+• assist 
+• aid
+
+259. schnell
+
+• quickly 
+• rapidly 
+• swiftly 
+• fast 
+• quick 
+• rapid
+
+260. machst
+
+• make 
+• do 
+• render
+
+261. eines
+
+• one
+
+262. andere
+
+• different 
+• other
+
+263. unser
+
+• our
+
+264. warte
+
+• wait
+
+265. wegen
+
+• because of 
+• due to 
+• on account of 
+• owing to
+
+266. menschen
+
+• people 
+• human beings 
+• mankind
+
+267. stimmt
+
+• agreed
+
+268. dafür
+
+• for that 
+• in favor
+
+269. darf
+
+• allowed
+
+270. kinder
+
+• children
+
+271. genug
+
+• sufficient 
+• enough 
+• sufficiently
+
+272. sonst
+
+• else 
+• other 
+• usually 
+• otherwise 
+• or else
+
+273. ganze
+
+• whole 
+• all
+
+274. scheiße
+
+• shit 
+• crap
+
+275. he
+
+• hey
+
+276. halt
+
+• just 
+• simply
+
+277. sollten
+
+• should
+
+278. zusammen
+
+• together 
+• jointly 
+• collectively
+
+279. gegen
+
+• against 
+• to 
+• towards 
+• toward 
+• versus 
+• around
+
+280. jahre
+
+• year
+
+281. erst
+
+• only 
+• first 
+• not until
+
+282. denke
+
+• think 
+• believe 
+• conceive 
+• feel
+
+283. steht
+
+• stand
+
+284. habt
+
+• have
+
+285. verdammt
+
+• damn 
+• damned 
+• fucking 
+• bloody 
+• darn
+
+286. ihren
+
+• their
+
+287. glauben
+
+• believe 
+• trust 
+• think
+
+288. bringen
+
+• bring 
+• take 
+• get 
+• carry
+
+289. seid
+
+• be
+
+290. niemand
+
+• nobody 
+• no one 
+• no man
+
+291. warten
+
+• wait 
+• maintain 
+• await 
+• service
+
+292. brauchen
+
+• need 
+• require 
+• take 
+• use 
+• want
+
+293. lhre
+
+• teaching 
+• doctrine 
+• gauge 
+• theory 
+• apprenticeship 
+• lesson 
+• training 
+• science
+
+294. fragen
+
+• ask 
+• question
+
+295. arbeit
+
+• work 
+• labor 
+• job 
+• employment 
+• paper
+
+296. wann
+
+• when
+
+297. heißt
+
+• mean 
+• be called
+
+298. sprechen
+
+• speak 
+• talk 
+• say
+
+299. siehst
+
+• see 
+• view 
+• look at 
+• look 
+• watch
+
+300. jeder
+
+• each 
+• any 
+• every 
+• everyone 
+• everybody 
+• anyone
+
+301. kam
+
+• come 
+• get 
+• arrive 
+• occur 
+• go 
+• reach 
+• come out
+
+302. sofort
+
+• immediately 
+• instantly 
+• at once 
+• right away 
+• directly 
+• straight 
+• promptly 
+• straight away
+
+303. getan
+
+• do 
+• act
+
+304. fertig
+
+• finished 
+• ready
+
+305. kennen
+
+• know 
+• know of
+
+306. einmal
+
+• once
+
+307. sohn
+
+• son
+
+308. halten
+
+• keep 
+• hold 
+• maintain 
+• stop 
+• stick 
+• stay
+
+309. dabei
+
+• there
+
+310. hatten
+
+• have
+
+311. männer
+
+• men
+
+312. kind
+
+• child 
+• kid 
+• baby 
+• infant
+
+313. jahren
+
+• year
+
+314. beim
+
+• at the
+
+315. seinen
+
+• his
+
+316. mag
+
+• like
+
+317. komme
+
+• come 
+• get 
+• arrive 
+• occur 
+• go 
+• reach 
+• come out
+
+318. allein
+
+• by itself 
+• alone 
+• solely 
+• only
+
+319. bevor
+
+• before
+
+320. bruder
+
+• brother
+
+321. musik
+
+• music
+
+322. wahr
+
+• true 
+• real
+
+323. konnte
+
+• could 
+• might
+
+324. lieber
+
+• rather 
+• better
+
+325. uhr
+
+• watch 
+• clock
+
+326. kopf
+
+• head 
+• top 
+• mind
+
+327. sache
+
+• thing 
+• affair 
+• matter 
+• subject 
+• cause 
+• case 
+• object 
+• business
+
+328. gern
+
+• gladly 
+• willingly 
+• readily 
+• with pleasure
+
+329. denken
+
+• think 
+• believe 
+• conceive 
+• feel
+
+330. brauche
+
+• need 
+• require 
+• take 
+• use 
+• want
+
+331. ende
+
+• end 
+• ending 
+• finish
+
+332. später
+
+• future 
+• subsequent 
+• later 
+• later on 
+• subsequently 
+• afterwards 
+• thereafter
+
+333. gehe
+
+• go 
+• move 
+• walk 
+• leave
+
+334. vergessen
+
+• forget
+
+335. runter
+
+• down
+
+336. fahren
+
+• drive 
+• ride 
+• run 
+• pass 
+• move
+
+337. sieh
+
+• see 
+• view 
+• look at 
+• look 
+• watch
+
+338. warst
+
+• be
+
+339. stadt
+
+• city 
+• town
+
+340. namen
+
+• name 
+• title
+
+341. sehe
+
+• see 
+• view 
+• look at 
+• look 
+• watch
+
+342. augen
+
+• eyes
+
+343. gab
+
+• give 
+• pass 
+• hand 
+• put
+
+344. dank
+
+• thanks to
+
+345. sage
+
+• legend 
+• saga 
+• tale
+
+346. würden
+
+• will 
+• become
+
+347. eins
+
+• one 
+• one thing
+
+348. daran
+
+• it
+
+349. dazu
+
+• to
+
+350. egal
+
+• the same 
+• all the same 
+• even 
+• wherever
+
+351. frage
+
+• question 
+• issue 
+• problem
+
+352. weit
+
+• broad 
+• long 
+• far 
+• wide 
+• widely
+
+353. familie
+
+• family
+
+354. sterben
+
+• die 
+• perish
+
+355. könnten
+
+• can 
+• be able
+
+356. jungs
+
+• guys 
+• boys
+
+357. jeden
+
+• each
+
+358. minuten
+
+• minutes
+
+359. verstehe
+
+• understand 
+• see 
+• know
+
+360. deiner
+
+• yours
+
+361. hilfe
+
+• help 
+• aid 
+• assistance
+
+362. beide
+
+• either 
+• both
+
+363. bald
+
+• soon 
+• shortly
+
+364. deinem
+
+• your
+
+365. nimm
+
+• take 
+• adopt 
+• take on 
+• use
+
+366. kleine
+
+• little one
+
+367. baby
+
+• baby 
+• infant
+
+368. glück
+
+• happiness 
+• luck 
+• fortune 
+• chance 
+• bliss 
+• good luck
+
+369. freunde
+
+• friend 
+• boyfriend
+
+370. wusste
+
+• knew
+
+371. verrückt
+
+• crazy 
+• mad 
+• insane 
+• nuts 
+• wacky
+
+372. ruhig
+
+• quiet 
+• calm 
+• tranquil 
+• serene 
+• peaceful 
+• still 
+• silent 
+• easy 
+• quietly 
+• smoothly
+
+373. land
+
+• country 
+• land 
+• state
+
+374. darüber
+
+• above 
+• over it 
+• about that
+
+375. gefunden
+
+• find
+
+376. tür
+
+• door
+
+377. mache
+
+• make
+
+378. seiner
+
+• his 
+• its
+
+379. wasser
+
+• water
+
+380. auto
+
+• auto-
+
+381. sah
+
+• see 
+• view 
+• look at 
+• look 
+• watch
+
+382. dies
+
+• this
+
+383. eigentlich
+
+• actually 
+• really 
+• real 
+• actual
+
+384. eure
+
+• your 
+• yours
+
+385. ruhe
+
+• calm 
+• calmness 
+• rest 
+• quiet 
+• silence 
+• peace 
+• repose 
+• tranquility 
+• quietness 
+• smoothness 
+• privacy
+
+386. stehen
+
+• stand
+
+387. ihrer
+
+• of her
+
+388. frauen
+
+• women
+
+389. meinst
+
+• think 
+• mean 
+• believe 
+• say
+
+390. töten
+
+• kill 
+• kill off
+
+391. fall
+
+• case 
+• instance 
+• fall 
+• drop
+
+392. ging
+
+• go 
+• move 
+• walk 
+• leave
+
+393. polizei
+
+• police 
+• police force
+
+394. vorbei
+
+• by 
+• past 
+• over 
+• all over 
+• gone
+
+395. krieg
+
+• war 
+• warfare
+
+396. je
+
+• each 
+• ever
+
+397. darauf
+
+• thereon 
+• thereafter
+
+398. vielen
+
+• many
+
+399. letzte
+
+• last 
+• final 
+• latest 
+• recent 
+• ultimate
+
+400. lang
+
+• long
+
+401. bisschen
+
+• bit 
+• whit
+
+402. dran
+
+• tuned
+
+403. hoch
+
+• tall 
+• high 
+• highly 
+• up
+
+404. kenne
+
+• know 
+• know of
+
+405. fast
+
+• almost 
+• nearly 
+• most 
+• virtually 
+• near 
+• just about
+
+406. ganzen
+
+• full 
+• entire 
+• whole 
+• all of 
+• complete
+
+407. schau
+
+• show 
+• display 
+• exhibition
+
+408. sogar
+
+• even
+
+409. spielen
+
+• play 
+• gamble
+
+410. wurden
+
+• will 
+• become
+
+411. hinter
+
+• behind 
+• after 
+• past
+
+412. teufel
+
+• devil 
+• demon 
+• heck
+
+413. dinge
+
+• things
+
+414. keiner
+
+• none 
+• no one 
+• nobody 
+• neither
+
+415. spät
+
+• late
+
+416. bekommen
+
+• get 
+• obtain 
+• receive 
+• have 
+• gain
+
+417. oben
+
+• above 
+• up 
+• at the top 
+• upstairs
+
+418. hört
+
+• hear 
+• listen 
+• listen to
+
+419. hätten
+
+• have
+
+420. bereit
+
+• ready 
+• willing 
+• prepared
+
+421. drin
+
+• in it
+
+422. neue
+
+• new
+
+423. kommst
+
+• come 
+• get 
+• arrive 
+• occur 
+• go 
+• reach 
+• come out
+
+424. woher
+
+• whence 
+• where from 
+• from which
+
+425. ihrem
+
+• their
+
+426. wagen
+
+• dare 
+• venture 
+• risk
+
+427. arbeiten
+
+• work 
+• operate 
+• function 
+• fashion
+
+428. verstehen
+
+• understand 
+• see 
+• know
+
+429. jahr
+
+• year
+
+430. tod
+
+• death
+
+431. etwa
+
+• about 
+• approximately 
+• some
+
+432. echt
+
+• genuine 
+• true 
+• authentic 
+• real
+
+433. seinem
+
+• his
+
+434. geschichte
+
+• history 
+• story 
+• tale
+
+435. bringt
+
+• bring 
+• take 
+• get 
+• carry
+
+436. braucht
+
+• need 
+• require 
+• take 
+• use 
+• want
+
+437. treffen
+
+• meet 
+• hit 
+• strike 
+• meet with
+
+438. toll
+
+• great 
+• fantastic
+
+439. gerne
+
+• gladly 
+• with pleasure 
+• willingly
+
+440. draußen
+
+• outside 
+• outdoors 
+• out 
+• out there
+
+441. fünf
+
+• five
+
+442. lhnen
+
+• lean
+
+443. zimmer
+
+• room
+
+444. nett
+
+• nice 
+• cute 
+• kind 
+• lovely 
+• pleasant 
+• neat 
+• nicely
+
+445. weiss
+
+• white
+
+446. spiel
+
+• game 
+• play 
+• match 
+• clearance
+
+447. verstanden
+
+• understood
+
+448. große
+
+• size 
+• magnitude 
+• quantity 
+• height 
+• greatness 
+• dimensions
+
+449. anders
+
+• different 
+• differently 
+• else
+
+450. sorgen
+
+• ensure 
+• provide 
+• cater 
+• take care
+
+451. welche
+
+• which 
+• that 
+• what 
+• who
+
+452. einzige
+
+• single
+
+453. art
+
+• type 
+• kind 
+• sort 
+• style 
+• way 
+• manner 
+• fashion 
+• mode 
+• nature 
+• species 
+• form
+
+454. liegt
+
+• lie 
+• be
+
+455. verloren
+
+• lost 
+• wasted
+
+456. ahnung
+
+• idea 
+• notion 
+• feeling 
+• foreboding 
+• presentiment 
+• premonition 
+• suspicion 
+• hunch
+
+457. vier
+
+• four
+
+458. alter
+
+• age 
+• old age
+
+459. gekommen
+
+• come 
+• get 
+• arrive 
+• occur 
+• go 
+• reach 
+• come out
+
+460. jemanden
+
+• somebody
+
+461. gehst
+
+• go 
+• move 
+• walk 
+• leave
+
+462. woche
+
+• week
+
+463. kerl
+
+• guy 
+• fellow 
+• chap 
+• bloke
+
+464. gestern
+
+• yesterday
+
+465. wenig
+
+• small 
+• a little 
+• little
+
+466. bestimmt
+
+• certainly 
+• definitely 
+• set
+
+467. kurz
+
+• short 
+• brief 
+• quick 
+• briefly
+
+468. überhaupt
+
+• at all
+
+469. finde
+
+• find
+
+470. darum
+
+• therefore 
+• that is why
+
+471. tage
+
+• days
+
+472. erste
+
+• first
+
+473. schwester
+
+• sister 
+• nurse
+
+474. schwer
+
+• difficult 
+• hard 
+• severe 
+• serious 
+• tough 
+• heavy 
+• heavily 
+• seriously 
+• badly
+
+475. suchen
+
+• search 
+• seek 
+• look for 
+• find
+
+476. bleibt
+
+• remain 
+• stay 
+• keep 
+• be left
+
+477. tochter
+
+• daughter 
+• subsidiary
+
+478. typ
+
+• type 
+• guy 
+• model
+
+479. guter
+
+• goods
+
+480. gewesen
+
+• be
+
+481. grund
+
+• reason 
+• cause 
+• grounds 
+• ground 
+• land 
+• foundation 
+• bottom
+
+482. zeigen
+
+• show 
+• demonstrate 
+• exhibit 
+• present 
+• point 
+• indicate 
+• display 
+• reveal
+
+483. film
+
+• film 
+• movie
+
+484. schlecht
+
+• bad 
+• poor 
+• sick 
+• low 
+• evil 
+• hard 
+• poorly 
+• badly 
+• ill
+
+485. schatz
+
+• treasure 
+• sweetheart 
+• darling 
+• love 
+• hoard
+
+486. deshalb
+
+• therefore 
+• hence
+
+487. holen
+
+• get 
+• fetch 
+• pick up
+
+488. hoffe
+
+• hope
+
+489. sagst
+
+• say 
+• tell 
+• speak
+
+490. bett
+
+• bed
+
+491. muß
+
+• must
+
+492. seite
+
+• page 
+• side 
+• hand
+
+493. gefällt
+
+• precipitate 
+• fell 
+• cut down 
+• chop down
+
+494. eben
+
+• just 
+• simply 
+• precisely 
+• exactly 
+• plane 
+• flat 
+• level 
+• even
+
+495. lasst
+
+• let 
+• leave 
+• allow
+
+496. gefallen
+
+• fallen 
+• please
+
+497. stunden
+
+• hours
+
+498. herz
+
+• heart
+
+499. wohin
+
+• whither 
+• where 
+• wherever
+
+500. trinken
+
+• drink

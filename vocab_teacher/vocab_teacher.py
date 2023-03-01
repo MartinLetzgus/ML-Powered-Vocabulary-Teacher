@@ -3,12 +3,13 @@ import random
 import pandas
 import time
 import warnings
+import glob
 
 warnings.filterwarnings("ignore")
 
 
 class Session:
-    def __init__(self, vocab_list, logfile):
+    def __init__(self, name, vocab_list, logfile):
         self.words = [item[0] for item in vocab_list]
         df_session = pandas.DataFrame(
             columns=[
@@ -66,6 +67,7 @@ class Session:
         ]:
             df_session[col] = [False] * len(self.words)
 
+        self.name = name
         self.df_session = df_session
         self.logfile = logfile
         self.nb_rounds = 0
@@ -76,26 +78,26 @@ class Session:
         assert word in self.df_session["word"].to_list()
         self.nb_rounds += 1
         for i in range(5, 1, -1):
-            self.df_session.loc[self.df_session["word"] == word][
-                f"rounds_last_met{i}"
-            ] = self.df_session.loc[self.df_session["word"] == word][
-                f"rounds_last_met{i-1}"
+            self.df_session.loc[
+                self.df_session["word"] == word, f"rounds_last_met{i}"
+            ] = self.df_session.loc[
+                self.df_session["word"] == word, f"rounds_last_met{i-1}"
             ]
-            self.df_session.loc[self.df_session["word"] == word][
-                f"time_last_met{i}"
-            ] = self.df_session.loc[self.df_session["word"] == word][
-                f"time_last_met{i-1}"
+            self.df_session.loc[
+                self.df_session["word"] == word, f"time_last_met{i}"
+            ] = self.df_session.loc[
+                self.df_session["word"] == word, f"time_last_met{i-1}"
             ]
-            self.df_session.loc[self.df_session["word"] == word][
-                f"res_last_met{i}"
-            ] = self.df_session.loc[self.df_session["word"] == word][
-                f"res_last_met{i-1}"
+            self.df_session.loc[
+                self.df_session["word"] == word, f"res_last_met{i}"
+            ] = self.df_session.loc[
+                self.df_session["word"] == word, f"res_last_met{i-1}"
             ]
-        self.df_session.loc[self.df_session["word"] == word][f"rounds_last_met{i}"] = 0
-        self.df_session.loc[self.df_session["word"] == word][
-            f"time_last_met{i}"
+        self.df_session.loc[self.df_session["word"] == word, "rounds_last_met1"] = 0
+        self.df_session.loc[
+            self.df_session["word"] == word, "rounds_last_met1"
         ] = time.time()
-        self.df_session.loc[self.df_session["word"] == word][f"res_last_met{i}"] = res
+        self.df_session.loc[self.df_session["word"] == word, "res_last_met1"] = res
         for i in range(1, 6):  # We could update only the words_to_study
             self.df_session[f"rounds_last_met{i}"] += 1
         for i in range(1, 6):  # We could update only the words_to_study
@@ -125,8 +127,8 @@ class Session:
         self.words_to_study = self.words[: actual_len + x]
         return self.words_to_study
 
-    def dump(self, path):
-        pickle.dump(vocab_list, open(path, "wb"))
+    def save(self):
+        pickle.dump(self, open(f"../session/{self.name}.pse", "wb"))
 
 
 def word_to_pair(vocab_list, word):
@@ -145,8 +147,8 @@ def check_vocab_list(vocab_list):
 
 
 def ask_for_translation(word):
-    answer = str(input(f"{word} -> "))
-    return answer.lower()
+    answer = str(input(f"\n{word} -> "))
+    return answer.lower().strip()
 
 
 def add_words_menu():
@@ -156,55 +158,97 @@ def add_words_menu():
 
 def menu():
     print(
-        "This is the menu. To come back to the menu during the practice, "
+        "\nThis is the menu. To come back to the menu during the practice, "
         "just write digits in place of your answer."
     )
     print("Some options are available :")
-    print("practice -> start the practice !")
-    print("info -> give infos about the current session")
-    print("add_words -> allow to add more words to your training")
-    answer = str(input("-> "))
-    return answer.lower()
+    print("  practice    ->    start the practice !")
+    print("  info        ->    give info about the current session")
+    print("  add_words   ->    allow to add more words to your training")
+    print("  quit        ->    exit the lesson")
+    answer = str(input("\n  -> "))
+    return answer.lower().strip()
 
 
-vocab_list = pickle.load(open("../vocab_list/german_english_500.pvl", "rb"))
-check_vocab_list(vocab_list)
-session = Session(vocab_list, "../logs/german_english_500.log")
+def pick_a_session():
+    session_dict = {"new": "new"}
+    print("Choose a session :")
+    for session_file in glob.glob("../session/*.pse"):
+        session_name = session_file[11:-4].lower()
+        session_dict.update({session_name: session_file})
+        print(f"  -{session_name}")
+    print("  -new")
+    answer = str(input("-> ")).lower().strip()
+    return session_dict.get(answer)
 
-print("The dict is loaded without incidents. Let's start !\n")
+
+def ask_session_name():
+    answer = str(input("Session name -> ")).strip()
+    return answer
 
 
-while True:
-    choice = menu()
-    if choice == "practice":
-        pair = word_to_pair(
-            vocab_list, random.choice(session.words_to_study)
-        )  # Not clean
-        word, good_answers = pair
-        answer = ask_for_translation(word)
-        while answer[0] not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]: # will fail if empty
-            if answer in good_answers:
-                print(f"Well played ! The good answers were : {good_answers}\n")
-            else:
-                print(f"Oh no you failed ! The good answers were : {good_answers}\n")
+if __name__ == "__main__":
+    vocab_list = pickle.load(open("../vocab_list/german_english_500.pvl", "rb"))
+    check_vocab_list(vocab_list)
 
-            res = answer in good_answers
-            session.write_to_logfile(word, res)
-            session.update(word, res)
-            session.dump("../session/german_english_500.pse")
+    # session_name = "german_english_500"
+    # session = Session(vocab_list, "../logs/german_english_500.log")
+    # session = pickle.load(open(f"../session/{session_name}.pse", "rb"))
 
+    print(
+        "The vocab and the session have been loaded without incidents. Let's start !\n"
+    )
+    session_file = None
+    while not session_file:
+        session_file = pick_a_session()
+        if not session_file:
+            print("Please choose a valid options")
+        elif session_file != "new":
+            session = pickle.load(open(session_file, "rb"))
+            assert isinstance(session, Session)
+        else:
+            session_name = ask_session_name()
+            session = Session(session_name, vocab_list, f"../logs/{session_name}.log")
+
+    while True:
+        choice = menu()
+        if choice == "practice":
             pair = word_to_pair(
                 vocab_list, random.choice(session.words_to_study)
             )  # Not clean
             word, good_answers = pair
+            good_answers = [item.lower() for item in good_answers]
             answer = ask_for_translation(word)
+            while not answer or answer[0] not in "0123456789":
+                if answer in good_answers:
+                    print(f"Well played ! The good answers were : {good_answers}")
+                else:
+                    print(f"Oh no you failed ! The good answers were : {good_answers}")
 
-    elif choice == "info":
-        print(
-            f"On this session {session.nb_rounds} rounds have been played and "
-            f"you are training on {len(session.words_to_study)} words right now !\n"
-        )
-    elif choice == "add_words":
-        answer = add_words_menu()
-        session.add_words_to_study(answer)
-        print(f"{answer} have well been added to the set of words you train on !\n")
+                res = answer in good_answers
+                session.write_to_logfile(word, res)
+                session.update(word, res)
+                session.save()
+
+                pair = word_to_pair(
+                    vocab_list, random.choice(session.words_to_study)
+                )  # Not clean
+                word, good_answers = pair
+                good_answers = [item.lower() for item in good_answers]
+                answer = ask_for_translation(word)
+
+        elif choice == "info":
+            print(
+                f"\nOn this session {session.nb_rounds} rounds have been played and "
+                f"you are training on {len(session.words_to_study)} words right now !"
+            )
+        elif choice == "add_words":
+            answer = add_words_menu()
+            session.add_words_to_study(answer)
+            print(
+                f"\n{answer} words have well been added to the set of words you train on !"
+            )
+        elif choice == "quit":
+            break
+        else:
+            print("\nPlease choose a valid option")

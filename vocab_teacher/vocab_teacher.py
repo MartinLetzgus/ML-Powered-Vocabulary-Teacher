@@ -95,7 +95,7 @@ class Session:
             ]
         self.df_session.loc[self.df_session["word"] == word, "rounds_last_met1"] = 0
         self.df_session.loc[
-            self.df_session["word"] == word, "rounds_last_met1"
+            self.df_session["word"] == word, "time_last_met1"
         ] = time.time()
         self.df_session.loc[self.df_session["word"] == word, "res_last_met1"] = res
         for i in range(1, 6):  # We could update only the words_to_study
@@ -117,7 +117,7 @@ class Session:
         data = self.df_session.loc[self.df_session["word"] == word]
         # We convert absolute time into timediff
         for i in range(1, 6):  # We could update only the words_to_study
-            self.df_session[f"time_last_met{i}"].apply(lambda x: time.time() - x)
+            data[f"time_last_met{i}"] = round(time.time() - data[f"time_last_met{i}"])
         data = data.to_string(header=False, index=False, index_names=False)
         with open(self.logfile, "a") as f:
             f.write(data + " " + str(res) + "\n")

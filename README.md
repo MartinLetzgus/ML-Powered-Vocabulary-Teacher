@@ -7,6 +7,6 @@ The aim of this project is to test a ML approach to learn vocabulary of a foreig
 
 ✔️ Create a first interface able to show a word, ask for an answer and write the result in a file to create a first dataset to train the model on
 
-- Train a model and create a function able to choose the word the least likely to be guessed
+✔️ Train a model and create a function able to choose the word the least likely to be guessed
 
-- Automate the retraining of the model along the training
+- Improve the logic of the model and the pick function in Session().get_word_ml() to obtain better results

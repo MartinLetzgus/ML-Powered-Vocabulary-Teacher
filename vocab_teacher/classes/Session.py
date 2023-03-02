@@ -1,8 +1,9 @@
 from classes.Vocab import Vocab
+from classes.Model import Model
 import pickle
 import pandas
 import time
-import random
+import numpy
 
 
 class Session:
@@ -68,9 +69,14 @@ class Session:
         self.name = name
         self.df_session = df_session
         self.logfile = logfile
+        headers = ",".join(self.df_session.columns) + ",res\n"
+        with open(self.logfile, "a") as f:
+            f.write(headers)
         self.nb_rounds = 0
         self.list_words = []  # TODO - Optimize this and the update of words_last_met
         self.words_to_study = self.words[:10]
+        self.model = Model(model_type="RandomForestRegressor")
+        self.save()
 
     def update(self, word, res):
         assert word in self.df_session["word"].to_list()
@@ -116,20 +122,37 @@ class Session:
         # We convert absolute time into timediff
         for i in range(1, 6):  # We could update only the words_to_study
             data[f"time_last_met{i}"] = round(time.time() - data[f"time_last_met{i}"])
-        data = data.to_string(header=False, index=False, index_names=False)
+        data["res"] = res
+        data = data.to_csv(header=False, index=False, index_label=False).replace(
+            "\n", ""
+        )
         with open(self.logfile, "a") as f:
-            f.write(data + " " + str(res) + "\n")
+            f.write(data)
 
-    def add_words_to_study(self, x):
+    def add_words_to_study(self, x) -> list[str]:
         actual_len = len(self.words_to_study)
         self.words_to_study = self.words[: actual_len + x]
         return self.words_to_study
 
-    def get_word(self, vocab: Vocab) -> tuple[str, list[str]]:
-        pair = vocab.word_to_pair(random.choice(self.words_to_study))
-        word, good_answers = pair
-        good_answers = [item.lower() for item in good_answers]
-        return word, good_answers
+    def get_word_random(self) -> str:
+        return numpy.random.choice(self.words_to_study)
 
-    def save(self):
-        pickle.dump(self, open(f"../session/{self.name}.pse", "wb"))
+    def get_word_ml(self) -> str:
+        self.model.train(self.logfile)
+        preds = []
+        for word in self.words_to_study:
+            pred = self.model.score(
+                self.df_session.loc[self.df_session["word"] == word]
+            )[0]
+            preds.append(1.0 - pred)
+            print(f"{word} : {round(1.0-pred, 2)}")
+
+        if numpy.sum(preds) != 0:
+            return numpy.random.choice(self.words_to_study, p=preds / numpy.sum(preds))
+        else:
+            return numpy.random.choice(self.words_to_study)
+
+    def save(self) -> str:
+        filepath = f"../session/{self.name}.pse"
+        pickle.dump(self, open(filepath, "wb"))
+        return filepath

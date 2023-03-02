@@ -19,5 +19,6 @@ class Vocab:
             for word in item[1]:
                 assert isinstance(word, str)
 
-    def word_to_pair(self, word: str):
-        return [pair for pair in self.vocab_list if pair[0] == word][0]
+    def get_good_answer(self, word: str) -> list[str]:
+        pair = [pair for pair in self.vocab_list if pair[0] == word][0]
+        return [item.lower() for item in pair[1]]

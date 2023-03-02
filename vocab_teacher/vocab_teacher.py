@@ -97,7 +97,8 @@ if __name__ == "__main__":
     while True:
         choice = menu()
         if choice == "practice":  # Not clean
-            word, good_answers = session.get_word(vocab)
+            word = session.get_word_random()
+            good_answers = vocab.get_good_answer(word)
             answer = ask_for_translation(word)
             while not answer or answer[0] not in "0123456789":
                 if answer in good_answers:
@@ -110,7 +111,8 @@ if __name__ == "__main__":
                 session.update(word, res)
                 session.save()
 
-                word, good_answers = session.get_word(vocab)
+                word = session.get_word_ml()
+                good_answers = vocab.get_good_answer(word)
                 answer = ask_for_translation(word)
 
         elif choice == "info":

@@ -10,3 +10,10 @@ The aim of this project is to test a ML approach to learn vocabulary of a foreig
 ✔️ Train a model and create a function able to choose the word the least likely to be guessed
 
 - Improve the logic of the model and the pick function in Session().get_word_ml() to obtain better results
+    - Maybe look to reduce the complexity of the models to avoid overfitting the very small dataset
+
+- Delete sessions via UI, and prevent from creating severals with same name
+
+- Add session history for backup
+
+- Add other datasets

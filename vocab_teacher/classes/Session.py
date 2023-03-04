@@ -1,6 +1,7 @@
 from classes.Vocab import Vocab
 from classes.Model import Model
 import pickle
+from scipy.special import softmax
 import pandas
 import time
 import numpy
@@ -137,18 +138,24 @@ class Session:
     def get_word_random(self) -> str:
         return numpy.random.choice(self.words_to_study)
 
-    def get_word_ml(self) -> str:
-        self.model.train(self.logfile)
+    def get_word_ml(self, history_size_to_consider: int = 2) -> str:
+        assert history_size_to_consider > 0
+        assert history_size_to_consider <= 5
+        self.model.train(self.logfile, history_size_to_consider)
         preds = []
         for word in self.words_to_study:
             pred = self.model.score(
-                self.df_session.loc[self.df_session["word"] == word]
+                self.df_session.loc[self.df_session["word"] == word],
+                history_size_to_consider,
             )[0]
             preds.append(1.0 - pred)
             print(f"{word} : {round(1.0-pred, 2)}")
 
         if numpy.sum(preds) != 0:
+            preds = numpy.array(preds)
+            preds = numpy.power(preds, 3)
             return numpy.random.choice(self.words_to_study, p=preds / numpy.sum(preds))
+            # return numpy.random.choice(self.words_to_study, p=softmax(preds))
         else:
             return numpy.random.choice(self.words_to_study)
 

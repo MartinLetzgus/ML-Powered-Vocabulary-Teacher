@@ -4,6 +4,7 @@ import glob
 
 from classes.Session import Session
 from classes.Vocab import Vocab
+from classes.Model import Model
 
 warnings.filterwarnings("ignore")
 
@@ -93,6 +94,8 @@ if __name__ == "__main__":
 
     vocab, session = pick_vocab_session()
     print("The vocab and the session have been loaded without incidents.\n")
+
+    session.model = Model()
 
     while True:
         choice = menu()
